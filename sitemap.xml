@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://mgmemik.github.io/british-footprints-web/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mgmemik.github.io/british-footprints-web/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mgmemik.github.io/british-footprints-web/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mgmemik.github.io/british-footprints-web/"/>
+  </url>
+  <url>
+    <loc>https://mgmemik.github.io/british-footprints-web/?lang=tr</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mgmemik.github.io/british-footprints-web/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mgmemik.github.io/british-footprints-web/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mgmemik.github.io/british-footprints-web/"/>
+  </url>
+  <url>
+    <loc>https://mgmemik.github.io/british-footprints-web/privacy/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mgmemik.github.io/british-footprints-web/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mgmemik.github.io/british-footprints-web/privacy/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mgmemik.github.io/british-footprints-web/privacy/"/>
+  </url>
+  <url>
+    <loc>https://mgmemik.github.io/british-footprints-web/privacy/?lang=tr</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.5</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mgmemik.github.io/british-footprints-web/privacy/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mgmemik.github.io/british-footprints-web/privacy/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mgmemik.github.io/british-footprints-web/privacy/"/>
+  </url>
+  <url>
+    <loc>https://mgmemik.github.io/british-footprints-web/support/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mgmemik.github.io/british-footprints-web/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mgmemik.github.io/british-footprints-web/support/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mgmemik.github.io/british-footprints-web/support/"/>
+  </url>
+  <url>
+    <loc>https://mgmemik.github.io/british-footprints-web/support/?lang=tr</loc>
+    <lastmod>2026-10-24</lastmod>
+    <priority>0.6</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://mgmemik.github.io/british-footprints-web/support/"/>
+    <xhtml:link rel="alternate" hreflang="tr" href="https://mgmemik.github.io/british-footprints-web/support/?lang=tr"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mgmemik.github.io/british-footprints-web/support/"/>
+  </url>
+</urlset>

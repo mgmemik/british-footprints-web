@@ -1,0 +1,27 @@
+    <a class="skip-link" href="#main" data-i18n="common.skip">{{t:common.skip}}</a>
+    <header class="site-header">
+      <div class="container header-inner">
+        <a class="brand" href="{{root}}./" data-nav="home">
+          <img class="brand-icon" src="{{root}}assets/img/icon-180.png" width="40" height="40" alt="" />
+          <span class="brand-text">
+            <span class="brand-name">British Footprints</span>
+            <span class="brand-sub" data-i18n="common.brandSub">{{t:common.brandSub}}</span>
+          </span>
+        </a>
+        <nav class="nav" aria-label="Main">
+          <a class="nav-link" href="{{root}}./" data-nav="home" data-i18n="common.navHome">{{t:common.navHome}}</a>
+          <a class="nav-link" href="{{root}}privacy/" data-nav="privacy" data-i18n="common.navPrivacy">{{t:common.navPrivacy}}</a>
+          <a class="nav-link" href="{{root}}support/" data-nav="support" data-i18n="common.navSupport">{{t:common.navSupport}}</a>
+        </nav>
+        <div class="tools">
+          <div class="lang-switch" role="group" aria-label="{{a:common.langLabel}}" data-i18n-attr="aria-label:common.langLabel">
+            <button type="button" class="lang-btn" data-lang="en" lang="en" aria-pressed="true">EN</button>
+            <button type="button" class="lang-btn" data-lang="tr" lang="tr" aria-pressed="false">TR</button>
+          </div>
+          <button type="button" class="theme-btn" id="theme-btn" aria-label="{{a:common.themeToggle}}" title="{{a:common.themeToggle}}" data-i18n-attr="aria-label:common.themeToggle;title:common.themeToggle">
+            <svg class="i-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.9 4.9l1.8 1.8M17.3 17.3l1.8 1.8M4.9 19.1l1.8-1.8M17.3 6.7l1.8-1.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <svg class="i-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </div>
+    </header>

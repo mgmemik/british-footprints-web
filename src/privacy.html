@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en" data-page="privacy">
+  <head>
+{{> head}}
+    <title data-i18n="privacy.metaTitle">{{a:privacy.metaTitle}}</title>
+    <meta name="description" content="{{a:privacy.metaDesc}}" data-i18n-attr="content:privacy.metaDesc" />
+    <meta property="og:title" content="{{a:privacy.metaTitle}}" data-i18n-attr="content:privacy.metaTitle" />
+    <meta property="og:description" content="{{a:privacy.metaDesc}}" data-i18n-attr="content:privacy.metaDesc" />
+    <meta name="twitter:title" content="{{a:privacy.metaTitle}}" data-i18n-attr="content:privacy.metaTitle" />
+    <meta name="twitter:description" content="{{a:privacy.metaDesc}}" data-i18n-attr="content:privacy.metaDesc" />
+  </head>
+  <body>
+{{> header}}
+    <main id="main" class="page">
+      <div class="container narrow">
+        <header class="page-head">
+          <h1 data-i18n="privacy.h1">{{t:privacy.h1}}</h1>
+          <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="lead" data-i18n="privacy.lead">{{t:privacy.lead}}</p>
+        </header>
+        <aside class="card summary" aria-labelledby="summary-title">
+          <h2 id="summary-title" data-i18n="privacy.summaryTitle">{{t:privacy.summaryTitle}}</h2>
+          <ul class="checks">
+            <li data-i18n="privacy.sum1">{{t:privacy.sum1}}</li>
+            <li data-i18n="privacy.sum2">{{t:privacy.sum2}}</li>
+            <li data-i18n="privacy.sum3">{{t:privacy.sum3}}</li>
+            <li data-i18n="privacy.sum4">{{t:privacy.sum4}}</li>
+          </ul>
+          <dl class="facts">
+            <div><dt data-i18n="privacy.factApp">{{t:privacy.factApp}}</dt><dd data-i18n="privacy.factAppV">{{t:privacy.factAppV}}</dd></div>
+            <div><dt data-i18n="privacy.factWho">{{t:privacy.factWho}}</dt><dd data-i18n="privacy.factWhoV">{{t:privacy.factWhoV}}</dd></div>
+            <div><dt data-i18n="privacy.factContact">{{t:privacy.factContact}}</dt><dd><a href="mailto:app@save-all.com">app@save-all.com</a></dd></div>
+            <div><dt data-i18n="privacy.factDate">{{t:privacy.factDate}}</dt><dd data-i18n="privacy.factDateV">{{t:privacy.factDateV}}</dd></div>
+          </dl>
+        </aside>
+        <article class="policy">
+          <section class="policy-section">
+            <h2 data-i18n="privacy.whoTitle">{{t:privacy.whoTitle}}</h2>
+            <p data-i18n="privacy.whoBody">{{t:privacy.whoBody}}</p>
+          </section>
+          <section class="policy-section" id="location">
+            <h2 data-i18n="privacy.locTitle">{{t:privacy.locTitle}}</h2>
+            <p data-i18n="privacy.locBody">{{t:privacy.locBody}}</p>
+            <p data-i18n="privacy.locBody2">{{t:privacy.locBody2}}</p>
+          </section>
+          <section class="policy-section" id="analytics">
+            <h2 data-i18n="privacy.anaTitle">{{t:privacy.anaTitle}}</h2>
+            <p data-i18n="privacy.anaBody">{{t:privacy.anaBody}}</p>
+            <h3 data-i18n="privacy.anaWhatTitle">{{t:privacy.anaWhatTitle}}</h3>
+            <ul class="bullets">
+              <li data-i18n="privacy.anaWhat1">{{t:privacy.anaWhat1}}</li>
+              <li data-i18n="privacy.anaWhat2">{{t:privacy.anaWhat2}}</li>
+              <li data-i18n="privacy.anaWhat3">{{t:privacy.anaWhat3}}</li>
+              <li data-i18n="privacy.anaWhat4">{{t:privacy.anaWhat4}}</li>
+              <li data-i18n="privacy.anaWhat5">{{t:privacy.anaWhat5}}</li>
+              <li data-i18n="privacy.anaWhat6">{{t:privacy.anaWhat6}}</li>
+            </ul>
+            <h3 data-i18n="privacy.anaCtxTitle">{{t:privacy.anaCtxTitle}}</h3>
+            <div class="table-wrap"><table>
+              <thead><tr><th scope="col" data-i18n="privacy.ctxKey">{{t:privacy.ctxKey}}</th><th scope="col" data-i18n="privacy.ctxMeaning">{{t:privacy.ctxMeaning}}</th></tr></thead>
+              <tbody>
+                <tr><td><code>channel</code></td><td data-i18n="privacy.ctxChannel">{{t:privacy.ctxChannel}}</td></tr>
+                <tr><td><code>entitled</code></td><td data-i18n="privacy.ctxEntitled">{{t:privacy.ctxEntitled}}</td></tr>
+                <tr><td><code>uiLanguage</code></td><td data-i18n="privacy.ctxLang">{{t:privacy.ctxLang}}</td></tr>
+                <tr><td><code>theme</code></td><td data-i18n="privacy.ctxTheme">{{t:privacy.ctxTheme}}</td></tr>
+                <tr><td><code>inIstanbul</code></td><td data-i18n="privacy.ctxIst">{{t:privacy.ctxIst}}</td></tr>
+              </tbody>
+            </table></div>
+            <p data-i18n="privacy.anaSdk">{{t:privacy.anaSdk}}</p>
+            <h3 data-i18n="privacy.anaIdTitle">{{t:privacy.anaIdTitle}}</h3>
+            <p data-i18n="privacy.anaId">{{t:privacy.anaId}}</p>
+            <h3 data-i18n="privacy.anaTestTitle">{{t:privacy.anaTestTitle}}</h3>
+            <p data-i18n="privacy.anaTest">{{t:privacy.anaTest}}</p>
+            <h3 data-i18n="privacy.anaOptTitle">{{t:privacy.anaOptTitle}}</h3>
+            <p data-i18n="privacy.anaOpt">{{t:privacy.anaOpt}}</p>
+            <p class="small" data-i18n="privacy.anaBasis">{{t:privacy.anaBasis}}</p>
+          </section>
+          <section class="policy-section" id="purchases">
+            <h2 data-i18n="privacy.buyTitle">{{t:privacy.buyTitle}}</h2>
+            <p data-i18n="privacy.buyBody">{{t:privacy.buyBody}}</p>
+          </section>
+          <section class="policy-section" id="maps">
+            <h2 data-i18n="privacy.mapTitle">{{t:privacy.mapTitle}}</h2>
+            <p data-i18n="privacy.mapBody">{{t:privacy.mapBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.picTitle">{{t:privacy.picTitle}}</h2>
+            <p data-i18n="privacy.picBody">{{t:privacy.picBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.handTitle">{{t:privacy.handTitle}}</h2>
+            <p data-i18n="privacy.handBody">{{t:privacy.handBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.deviceTitle">{{t:privacy.deviceTitle}}</h2>
+            <p data-i18n="privacy.deviceBody">{{t:privacy.deviceBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.noTitle">{{t:privacy.noTitle}}</h2>
+            <p data-i18n="privacy.noBody">{{t:privacy.noBody}}</p>
+          </section>
+          <section class="policy-section" id="website">
+            <h2 data-i18n="privacy.webTitle">{{t:privacy.webTitle}}</h2>
+            <p data-i18n="privacy.webBody">{{t:privacy.webBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.kidsTitle">{{t:privacy.kidsTitle}}</h2>
+            <p data-i18n="privacy.kidsBody">{{t:privacy.kidsBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.rightsTitle">{{t:privacy.rightsTitle}}</h2>
+            <p data-i18n="privacy.rightsBody">{{t:privacy.rightsBody}}</p>
+          </section>
+          <section class="policy-section" id="sources">
+            <h2 data-i18n="privacy.srcTitle">{{t:privacy.srcTitle}}</h2>
+            <p data-i18n="privacy.srcBody">{{t:privacy.srcBody}}</p>
+          </section>
+          <section class="policy-section">
+            <h2 data-i18n="privacy.changeTitle">{{t:privacy.changeTitle}}</h2>
+            <p data-i18n="privacy.changeBody">{{t:privacy.changeBody}}</p>
+          </section>
+          <section class="policy-section" id="contact">
+            <h2 data-i18n="privacy.contactTitle">{{t:privacy.contactTitle}}</h2>
+            <p data-i18n="privacy.contactBody">{{t:privacy.contactBody}}</p>
+          </section>
+          <p class="updated" data-i18n="privacy.updated">{{t:privacy.updated}}</p>
+        </article>
+      </div>
+    </main>
+{{> footer}}
+  </body>
+</html>

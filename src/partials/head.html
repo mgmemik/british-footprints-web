@@ -1,0 +1,41 @@
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#0F1722" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="#F4ECDC" media="(prefers-color-scheme: light)" />
+    <script>
+      /* Theme before first paint: saved choice, else the system setting (dark unless the system asks for light). */
+      (function () {
+        var d = document.documentElement, t = null;
+        try { t = localStorage.getItem("bf_theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") {
+          t = window.matchMedia && matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+        }
+        d.setAttribute("data-theme", t);
+        try {
+          var q = new URLSearchParams(location.search).get("lang") || localStorage.getItem("bf_lang");
+          if (q === "tr" || q === "en") d.lang = q;
+        } catch (e) {}
+      })();
+    </script>
+    <link rel="canonical" href="{{site}}{{path}}" data-canonical-base="{{site}}{{path}}" />
+    <link rel="alternate" hreflang="en" href="{{site}}{{path}}" />
+    <link rel="alternate" hreflang="tr" href="{{site}}{{path}}?lang=tr" />
+    <link rel="alternate" hreflang="x-default" href="{{site}}{{path}}" />
+    <link rel="icon" href="{{root}}favicon.ico" sizes="any" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{root}}assets/img/icon-32.png" />
+    <link rel="apple-touch-icon" href="{{root}}assets/img/icon-180.png" />
+    <link rel="manifest" href="{{root}}site.webmanifest" />
+    <link rel="preload" href="{{root}}assets/fonts/PlayfairDisplay.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="{{root}}assets/fonts/Lora.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="{{root}}assets/styles.css" />
+    <meta property="og:site_name" content="British Footprints: Istanbul" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="{{site}}{{path}}" />
+    <meta property="og:image" content="{{site}}assets/img/og-image.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_GB" />
+    <meta property="og:locale:alternate" content="tr_TR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:image" content="{{site}}assets/img/og-image.jpg" />

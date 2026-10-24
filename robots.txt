@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mgmemik.github.io/british-footprints-web/sitemap.xml

@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en" data-page="home">
+  <head>
+{{> head}}
+    <title data-i18n="home.metaTitle">{{a:home.metaTitle}}</title>
+    <meta name="description" content="{{a:home.metaDesc}}" data-i18n-attr="content:home.metaDesc" />
+    <meta property="og:title" content="{{a:home.ogTitle}}" data-i18n-attr="content:home.ogTitle" />
+    <meta property="og:description" content="{{a:home.ogDesc}}" data-i18n-attr="content:home.ogDesc" />
+    <meta name="twitter:title" content="{{a:home.ogTitle}}" data-i18n-attr="content:home.ogTitle" />
+    <meta name="twitter:description" content="{{a:home.ogDesc}}" data-i18n-attr="content:home.ogDesc" />
+    <meta property="og:image:alt" content="{{a:home.appAlt}}" data-i18n-attr="content:home.appAlt" />
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MobileApplication",
+  "name": "British Footprints: Istanbul",
+  "alternateName": "İngiliz'in İstanbul'u",
+  "description": "{{a:home.ogDesc}}",
+  "url": "{{site}}",
+  "image": "{{site}}assets/img/icon-512.png",
+  "screenshot": "{{site}}assets/img/og-image.jpg",
+  "operatingSystem": "iOS, Android",
+  "applicationCategory": "TravelApplication",
+  "inLanguage": ["en", "tr"],
+  "isAccessibleForFree": true,
+  "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+  "publisher": { "@type": "Organization", "name": "thebarnapp", "email": "app@save-all.com" },
+  "contentLocation": { "@type": "City", "name": "Istanbul" }
+}
+    </script>
+    <script type="application/ld+json">
+{{faqld:home.faq:8}}
+    </script>
+  </head>
+  <body>
+{{> header}}
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <picture class="hero-art">
+          <img
+            src="assets/img/hero-h2-1920.webp"
+            srcset="assets/img/hero-h2-960.webp 960w, assets/img/hero-h2-1920.webp 1920w"
+            sizes="100vw" width="1920" height="823"
+            alt="{{a:home.heroAlt}}" data-i18n-attr="alt:home.heroAlt" fetchpriority="high" />
+        </picture>
+        <div class="container">
+          <div class="hero-card folio">
+            <p class="eyebrow" data-i18n="home.eyebrow">{{t:home.eyebrow}}</p>
+            <h1 id="hero-title" data-i18n="home.h1">{{t:home.h1}}</h1>
+            <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+            <p class="lead" data-i18n="home.lead">{{t:home.lead}}</p>
+{{> stores}}
+            <ul class="stats">
+              <li data-i18n="home.stat1">{{t:home.stat1}}</li>
+              <li data-i18n="home.stat2">{{t:home.stat2}}</li>
+              <li data-i18n="home.stat3">{{t:home.stat3}}</li>
+              <li data-i18n="home.stat4">{{t:home.stat4}}</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="inside" aria-labelledby="inside-title">
+        <div class="container">
+          <h2 id="inside-title" data-i18n="home.insideTitle">{{t:home.insideTitle}}</h2>
+          <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="section-lead" data-i18n="home.insideLead">{{t:home.insideLead}}</p>
+          <figure class="plate wide">
+            <img
+              src="assets/img/app-s2-1400.webp"
+              srcset="assets/img/app-s2-800.webp 800w, assets/img/app-s2-1400.webp 1400w"
+              sizes="(min-width: 1100px) 1040px, 100vw" width="1400" height="933" loading="lazy"
+              alt="{{a:home.appAlt}}" data-i18n-attr="alt:home.appAlt" />
+          </figure>
+          <div class="features">
+            <article class="card feature">
+              <svg class="f-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-6.5-6-6.5-11a6.5 6.5 0 0 1 13 0c0 5-6.5 11-6.5 11z"/><circle cx="12" cy="10" r="2.4"/></svg>
+              <h3 data-i18n="home.f1Title">{{t:home.f1Title}}</h3>
+              <p data-i18n="home.f1Body">{{t:home.f1Body}}</p>
+            </article>
+            <article class="card feature">
+              <svg class="f-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="5" cy="18" r="2"/><circle cx="19" cy="6" r="2"/><path d="M7 18h6a3 3 0 0 0 0-6h-2a3 3 0 0 1 0-6h6" stroke-dasharray="2 2.4"/></svg>
+              <h3 data-i18n="home.f2Title">{{t:home.f2Title}}</h3>
+              <p data-i18n="home.f2Body">{{t:home.f2Body}}</p>
+            </article>
+            <article class="card feature">
+              <svg class="f-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="5" width="17" height="14" rx="1"/><rect x="6" y="7.5" width="12" height="9"/><path d="M6 14l3.5-3.5 3 3 2-2 3.5 3.5"/></svg>
+              <h3 data-i18n="home.f3Title">{{t:home.f3Title}}</h3>
+              <p data-i18n="home.f3Body">{{t:home.f3Body}}</p>
+            </article>
+            <article class="card feature">
+              <svg class="f-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6.5h6.5a1.5 1.5 0 0 1 1.5 1.5v11a2 2 0 0 0-2-2H4zM20 6.5h-6.5A1.5 1.5 0 0 0 12 8v11a2 2 0 0 1 2-2h6z"/></svg>
+              <h3 data-i18n="home.f4Title">{{t:home.f4Title}}</h3>
+              <p data-i18n="home.f4Body">{{t:home.f4Body}}</p>
+            </article>
+            <article class="card feature">
+              <svg class="f-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l9 9-9 9-9-9z"/><path d="M9.5 14v-2.5h5M12.5 9l2 2.5-2 2.5"/></svg>
+              <h3 data-i18n="home.f5Title">{{t:home.f5Title}}</h3>
+              <p data-i18n="home.f5Body">{{t:home.f5Body}}</p>
+            </article>
+            <article class="card feature">
+              <svg class="f-icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="6.5" y="2.5" width="11" height="19" rx="2.2"/><circle cx="12" cy="11" r="2.2"/><path d="M12 6.5v1.6M12 13.9v1.6M7.9 11h1.6M14.5 11h1.6"/></svg>
+              <h3 data-i18n="home.f6Title">{{t:home.f6Title}}</h3>
+              <p data-i18n="home.f6Body">{{t:home.f6Body}}</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section alt" id="free" aria-labelledby="free-title">
+        <div class="container">
+          <h2 id="free-title" data-i18n="home.freeTitle">{{t:home.freeTitle}}</h2>
+          <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="section-lead" data-i18n="home.freeLead">{{t:home.freeLead}}</p>
+          <div class="offer">
+            <article class="card offer-card free">
+              <p class="ticket" data-i18n="home.freeCardTitle">{{t:home.freeCardTitle}}</p>
+              <ul class="checks">
+                <li data-i18n="home.free1">{{t:home.free1}}</li>
+                <li data-i18n="home.free2">{{t:home.free2}}</li>
+                <li data-i18n="home.free3">{{t:home.free3}}</li>
+              </ul>
+            </article>
+            <article class="card offer-card unlock">
+              <p class="ticket brass" data-i18n="home.unlockCardTitle">{{t:home.unlockCardTitle}}</p>
+              <ul class="checks">
+                <li data-i18n="home.unlock1">{{t:home.unlock1}}</li>
+                <li data-i18n="home.unlock2">{{t:home.unlock2}}</li>
+                <li data-i18n="home.unlock3">{{t:home.unlock3}}</li>
+                <li data-i18n="home.unlock4">{{t:home.unlock4}}</li>
+                <li data-i18n="home.unlock5">{{t:home.unlock5}}</li>
+              </ul>
+            </article>
+          </div>
+          <p class="note" data-i18n="home.unlockNote">{{t:home.unlockNote}}</p>
+        </div>
+      </section>
+
+      <section class="section" id="screens" aria-labelledby="screens-title">
+        <div class="container">
+          <h2 id="screens-title" data-i18n="home.screensTitle">{{t:home.screensTitle}}</h2>
+          <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="section-lead" data-i18n="home.screensLead">{{t:home.screensLead}}</p>
+        </div>
+        <div class="gallery" tabindex="0" role="region" aria-labelledby="screens-title">
+          <figure class="shot">
+            <img src="assets/img/screen-08-detail-free.webp" width="540" height="1171" loading="lazy" alt="{{a:home.s1}}" data-i18n-attr="alt:home.s1" />
+            <figcaption data-i18n="home.s1">{{t:home.s1}}</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/img/screen-15-route-unlocked.webp" width="540" height="1171" loading="lazy" alt="{{a:home.s2}}" data-i18n-attr="alt:home.s2" />
+            <figcaption data-i18n="home.s2">{{t:home.s2}}</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/img/screen-10-explore-badges.webp" width="540" height="1171" loading="lazy" alt="{{a:home.s3}}" data-i18n-attr="alt:home.s3" />
+            <figcaption data-i18n="home.s3">{{t:home.s3}}</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/img/screen-04-detail-locked-story.webp" width="540" height="1171" loading="lazy" alt="{{a:home.s4}}" data-i18n-attr="alt:home.s4" />
+            <figcaption data-i18n="home.s4">{{t:home.s4}}</figcaption>
+          </figure>
+          <figure class="shot">
+            <img src="assets/img/screen-detail-gumussuyu.webp" width="540" height="1174" loading="lazy" alt="{{a:home.s5}}" data-i18n-attr="alt:home.s5" />
+            <figcaption data-i18n="home.s5">{{t:home.s5}}</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="section alt" id="faq" aria-labelledby="faq-title">
+        <div class="container narrow">
+          <h2 id="faq-title" data-i18n="home.faqTitle">{{t:home.faqTitle}}</h2>
+          <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+          <div class="faq">
+            <details><summary data-i18n="home.faq1q">{{t:home.faq1q}}</summary><p data-i18n="home.faq1a">{{t:home.faq1a}}</p></details>
+            <details><summary data-i18n="home.faq2q">{{t:home.faq2q}}</summary><p data-i18n="home.faq2a">{{t:home.faq2a}}</p></details>
+            <details><summary data-i18n="home.faq3q">{{t:home.faq3q}}</summary><p data-i18n="home.faq3a">{{t:home.faq3a}}</p></details>
+            <details><summary data-i18n="home.faq4q">{{t:home.faq4q}}</summary><p data-i18n="home.faq4a">{{t:home.faq4a}}</p></details>
+            <details><summary data-i18n="home.faq5q">{{t:home.faq5q}}</summary><p data-i18n="home.faq5a">{{t:home.faq5a}}</p></details>
+            <details><summary data-i18n="home.faq6q">{{t:home.faq6q}}</summary><p data-i18n="home.faq6a">{{t:home.faq6a}}</p></details>
+            <details><summary data-i18n="home.faq7q">{{t:home.faq7q}}</summary><p data-i18n="home.faq7a">{{t:home.faq7a}}</p></details>
+            <details><summary data-i18n="home.faq8q">{{t:home.faq8q}}</summary><p data-i18n="home.faq8a">{{t:home.faq8a}}</p></details>
+          </div>
+        </div>
+      </section>
+
+      <section class="section cta" aria-labelledby="cta-title">
+        <div class="container">
+          <div class="cta-card folio">
+            <img src="assets/img/icon-180.png" width="88" height="88" alt="" class="cta-icon" loading="lazy" />
+            <h2 id="cta-title" data-i18n="home.ctaTitle">{{t:home.ctaTitle}}</h2>
+            <p data-i18n="home.ctaLead">{{t:home.ctaLead}}</p>
+{{> stores}}
+          </div>
+        </div>
+      </section>
+    </main>
+{{> footer}}
+  </body>
+</html>

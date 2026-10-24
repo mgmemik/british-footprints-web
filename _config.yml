@@ -1,0 +1,7 @@
+# GitHub Pages (Jekyll) settings. The pages are plain HTML; Jekyll only copies them.
+# Folders starting with "_" (such as _screens/) are never published.
+exclude:
+  - src
+  - tools
+  - README.md
+  - RESULT.md

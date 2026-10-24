@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en" data-page="support">
+  <head>
+{{> head}}
+    <title data-i18n="support.metaTitle">{{a:support.metaTitle}}</title>
+    <meta name="description" content="{{a:support.metaDesc}}" data-i18n-attr="content:support.metaDesc" />
+    <meta property="og:title" content="{{a:support.metaTitle}}" data-i18n-attr="content:support.metaTitle" />
+    <meta property="og:description" content="{{a:support.metaDesc}}" data-i18n-attr="content:support.metaDesc" />
+    <meta name="twitter:title" content="{{a:support.metaTitle}}" data-i18n-attr="content:support.metaTitle" />
+    <meta name="twitter:description" content="{{a:support.metaDesc}}" data-i18n-attr="content:support.metaDesc" />
+    <script type="application/ld+json">
+{{faqld:support.faq:9}}
+    </script>
+  </head>
+  <body>
+{{> header}}
+    <main id="main" class="page">
+      <div class="container narrow">
+        <header class="page-head">
+          <h1 data-i18n="support.h1">{{t:support.h1}}</h1>
+          <div class="tile-rule" aria-hidden="true"><i></i><i></i><i></i></div>
+          <p class="lead" data-i18n="support.lead">{{t:support.lead}}</p>
+        </header>
+        <section class="card contact-card" aria-labelledby="mail-title">
+          <h2 id="mail-title" data-i18n="support.mailTitle">{{t:support.mailTitle}}</h2>
+          <p class="mail" data-i18n="support.mailBody">{{t:support.mailBody}}</p>
+          <p class="small" data-i18n="support.mailHint">{{t:support.mailHint}}</p>
+        </section>
+        <section aria-labelledby="faq-title">
+          <h2 id="faq-title" data-i18n="support.faqTitle">{{t:support.faqTitle}}</h2>
+          <div class="faq">
+            <details id="q1"><summary data-i18n="support.faq1q">{{t:support.faq1q}}</summary><p data-i18n="support.faq1a">{{t:support.faq1a}}</p></details>
+            <details id="q2"><summary data-i18n="support.faq2q">{{t:support.faq2q}}</summary><p data-i18n="support.faq2a">{{t:support.faq2a}}</p></details>
+            <details id="q3"><summary data-i18n="support.faq3q">{{t:support.faq3q}}</summary><p data-i18n="support.faq3a">{{t:support.faq3a}}</p></details>
+            <details id="q4"><summary data-i18n="support.faq4q">{{t:support.faq4q}}</summary><p data-i18n="support.faq4a">{{t:support.faq4a}}</p></details>
+            <details id="q5"><summary data-i18n="support.faq5q">{{t:support.faq5q}}</summary><p data-i18n="support.faq5a">{{t:support.faq5a}}</p></details>
+            <details id="q6"><summary data-i18n="support.faq6q">{{t:support.faq6q}}</summary><p data-i18n="support.faq6a">{{t:support.faq6a}}</p></details>
+            <details id="q7"><summary data-i18n="support.faq7q">{{t:support.faq7q}}</summary><p data-i18n="support.faq7a">{{t:support.faq7a}}</p></details>
+            <details id="q8"><summary data-i18n="support.faq8q">{{t:support.faq8q}}</summary><p data-i18n="support.faq8a">{{t:support.faq8a}}</p></details>
+            <details id="q9"><summary data-i18n="support.faq9q">{{t:support.faq9q}}</summary><p data-i18n="support.faq9a">{{t:support.faq9a}}</p></details>
+          </div>
+        </section>
+        <p class="note" data-i18n="support.privacyLink">{{t:support.privacyLink}}</p>
+      </div>
+    </main>
+{{> footer}}
+  </body>
+</html>
