@@ -188,7 +188,7 @@
   "support.faq1q": "How do I restore my purchase on a new phone or after reinstalling?",
   "support.faq1a": "Open <strong>Settings › Full access › Restore purchases</strong> (the button is also on the unlock screen). Use the same Apple ID or Google account you bought with. The app also checks quietly at start, so a reinstalled app usually unlocks by itself once it is online. On iPhone you can enter a promotional code with <strong>Redeem code</strong>.",
   "support.faq2q": "Can my family use the unlock?",
-  "support.faq2a": "The unlock belongs to the Apple ID or Google account that bought it, and works on every phone or tablet signed in with that account – use Restore purchases there. Whether it can also be shared with a family group is shown on the app's store page (“Family Sharing” on the App Store, the family library on Google Play).",
+  "support.faq2a": "Yes on iPhone and iPad: the unlock supports Family Sharing, so up to five family members in your Apple family group get it too (open the app and tap Restore purchases). On Android the unlock belongs to the Google account that bought it and works on every device signed in with that account; Google Play does not share in-app purchases with a family group.",
   "support.faq3q": "Does the app work without mobile data?",
   "support.faq3a": "Yes for the stories and pictures: they are inside the app. The street map is loaded from OpenStreetMap and needs a connection; without one, the places and walks are still listed and readable.",
   "support.faq4q": "Why does the app ask for my location, and can I say no?",

@@ -188,7 +188,7 @@
   "support.faq1q": "Satın aldığım kilidi yeni bir telefonda ya da yeniden yükledikten sonra nasıl geri yüklerim?",
   "support.faq1a": "<strong>Ayarlar › Tam erişim › Satın alımları geri yükle</strong>'ye dokunun (düğme kilit açma ekranında da var). Satın alırken kullandığınız Apple Kimliği veya Google hesabını kullanın. Uygulama açılışta sessizce de kontrol eder; bu yüzden yeniden yüklenen uygulama internete bağlanınca genellikle kendiliğinden açılır. iPhone'da bir promosyon kodunu <strong>Kod kullan</strong> ile girebilirsiniz.",
   "support.faq2q": "Ailem de kilidi kullanabilir mi?",
-  "support.faq2a": "Kilit, onu satın alan Apple Kimliği'ne veya Google hesabına aittir ve o hesapla oturum açılmış her telefon ya da tablette çalışır – orada Satın alımları geri yükle'yi kullanın. Bir aile grubuyla da paylaşılıp paylaşılamayacağı uygulamanın mağaza sayfasında yazar (App Store'da “Aile Paylaşımı”, Google Play'de aile kitaplığı).",
+  "support.faq2a": "iPhone ve iPad'de evet: kilit Aile Paylaşımı'nı destekler, Apple aile grubunuzdaki beş kişiye kadar aile üyesi de kullanabilir (uygulamayı açıp Satın alımları geri yükle'ye dokunun). Android'de kilit, onu satın alan Google hesabına aittir ve o hesapla oturum açılmış her cihazda çalışır; Google Play uygulama içi satın alımları aile grubuyla paylaşmaz.",
   "support.faq3q": "Uygulama mobil veri olmadan çalışır mı?",
   "support.faq3a": "Hikâyeler ve görseller için evet: uygulamanın içindedirler. Sokak haritası OpenStreetMap'ten yüklenir ve bağlantı gerektirir; bağlantı yokken de yerler ve yürüyüşler listelenir ve okunabilir.",
   "support.faq4q": "Uygulama neden konumumu istiyor, hayır diyebilir miyim?",
