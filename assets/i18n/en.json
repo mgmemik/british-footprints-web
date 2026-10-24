@@ -95,7 +95,7 @@
   "privacy.h1": "Privacy policy",
   "privacy.lead": "British Footprints: Istanbul is built to need as little data as possible. There is no account, no advertising and no tracking. This page explains, in plain words, everything the app and this website do with data.",
   "privacy.summaryTitle": "In short",
-  "privacy.sum1": "Your location is used only on your phone. Your coordinates are never stored or sent.",
+  "privacy.sum1": "Your location is used on your phone. Your coordinates are never stored or sent; the statistics only say whether the phone is in Istanbul (approximate location).",
   "privacy.sum2": "Anonymous usage statistics go to TelemetryDeck (Germany). No name, no e-mail, no search text, no coordinates. You can switch them off.",
   "privacy.sum3": "Purchases are handled by Apple or Google. We never see your payment details.",
   "privacy.sum4": "No account, no ads, no cookies, no tracking across apps or websites.",
@@ -112,7 +112,7 @@
 
   "privacy.locTitle": "2. Your location",
   "privacy.locBody": "If you allow location access, the app uses your position <strong>only on your phone</strong>: to show the “you are here” dot on the map and to measure the distance to each place. Your coordinates are never stored and never sent to us or to anyone else.",
-  "privacy.locBody2": "The only thing derived from your location that leaves the phone is a yes/no/unknown value in the usage statistics (section 3): whether the phone is within about 30 km of central Istanbul. The app works fully without location access; you can allow or withdraw it at any time in your phone's settings.",
+  "privacy.locBody2": "The only thing derived from your location that leaves the phone is a yes/no/unknown value in the usage statistics (section 3): whether the phone is within about 30 km of central Istanbul. In the App Store and Google Play privacy details this is listed as <strong>approximate location</strong>, used for analytics only, not linked to you and not used for tracking. The app works fully without location access; you can allow or withdraw it at any time in your phone's settings.",
 
   "privacy.anaTitle": "3. Anonymous usage statistics (TelemetryDeck)",
   "privacy.anaBody": "To learn which places and features are used, the app sends anonymous usage statistics to <strong>TelemetryDeck GmbH</strong>, a privacy-focused analytics service based in Germany (EU). The statistics are short signals such as “a place page was opened” or “a walk was started in Maps”. They contain no name, no e-mail address, no search text and no location coordinates.",

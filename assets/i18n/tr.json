@@ -95,7 +95,7 @@
   "privacy.h1": "Gizlilik politikası",
   "privacy.lead": "British Footprints: Istanbul olabildiğince az veriyle çalışacak şekilde yapıldı. Hesap, reklam ve takip yoktur. Bu sayfa, uygulamanın ve bu web sitesinin verilerle yaptığı her şeyi sade bir dille anlatır.",
   "privacy.summaryTitle": "Kısaca",
-  "privacy.sum1": "Konumunuz yalnızca telefonunuzda kullanılır. Koordinatlarınız hiçbir zaman saklanmaz ve gönderilmez.",
+  "privacy.sum1": "Konumunuz telefonunuzda kullanılır. Koordinatlarınız hiçbir zaman saklanmaz ve gönderilmez; istatistikler yalnızca telefonun İstanbul'da olup olmadığını söyler (yaklaşık konum).",
   "privacy.sum2": "Anonim kullanım istatistikleri TelemetryDeck'e (Almanya) gider. Ad, e-posta, arama metni ve koordinat yoktur. İsterseniz kapatabilirsiniz.",
   "privacy.sum3": "Satın almaları Apple veya Google yürütür. Ödeme bilgilerinizi hiçbir zaman görmeyiz.",
   "privacy.sum4": "Hesap yok, reklam yok, çerez yok; uygulamalar veya siteler arasında takip yok.",
@@ -112,7 +112,7 @@
 
   "privacy.locTitle": "2. Konumunuz",
   "privacy.locBody": "Konum izni verirseniz uygulama konumunuzu <strong>yalnızca telefonunuzda</strong> kullanır: haritada “buradasınız” noktasını göstermek ve her yere olan mesafeyi ölçmek için. Koordinatlarınız hiçbir zaman saklanmaz; ne bize ne de başkasına gönderilir.",
-  "privacy.locBody2": "Konumunuzdan türetilip telefondan çıkan tek şey, kullanım istatistiklerindeki (bölüm 3) evet/hayır/bilinmiyor değeridir: telefonun İstanbul merkezine yaklaşık 30 km'den yakın olup olmadığı. Uygulama konum izni olmadan da eksiksiz çalışır; izni telefonunuzun ayarlarından istediğiniz zaman verebilir veya geri alabilirsiniz.",
+  "privacy.locBody2": "Konumunuzdan türetilip telefondan çıkan tek şey, kullanım istatistiklerindeki (bölüm 3) evet/hayır/bilinmiyor değeridir: telefonun İstanbul merkezine yaklaşık 30 km'den yakın olup olmadığı. App Store ve Google Play gizlilik bilgilerinde bu, yalnızca analiz amaçlı, kimliğinizle ilişkilendirilmeyen ve takip için kullanılmayan <strong>yaklaşık konum</strong> olarak listelenir. Uygulama konum izni olmadan da eksiksiz çalışır; izni telefonunuzun ayarlarından istediğiniz zaman verebilir veya geri alabilirsiniz.",
 
   "privacy.anaTitle": "3. Anonim kullanım istatistikleri (TelemetryDeck)",
   "privacy.anaBody": "Hangi yerlerin ve özelliklerin kullanıldığını öğrenmek için uygulama, Almanya'da (AB) yerleşik, gizliliği öne alan bir analiz hizmeti olan <strong>TelemetryDeck GmbH</strong>'ye anonim kullanım istatistikleri gönderir. İstatistikler “bir yer sayfası açıldı” ya da “bir yürüyüş Haritalar'da başlatıldı” gibi kısa sinyallerdir. Ad, e-posta adresi, arama metni ya da konum koordinatı içermezler.",
